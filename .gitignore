@@ -9,3 +9,6 @@
 !/.yarn/cache
 #/.pnp.*
 node_modules
+
+**/*.d.ts
+**/*.js

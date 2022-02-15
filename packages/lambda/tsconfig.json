@@ -1,4 +1,9 @@
 {
+  "references": [
+    {
+      "path": "../types"
+    }
+  ],
   "compilerOptions": {
     "composite": true,
     "target": "ES2018",
@@ -21,7 +26,9 @@
     "experimentalDecorators": true,
     "strictPropertyInitialization": false,
     "types": [
-      "jest"
+      "jest",
+      "node",
+      "aws-lambda"
     ],
     "typeRoots": [
       "./node_modules/@types"

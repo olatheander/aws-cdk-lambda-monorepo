@@ -1,0 +1,7 @@
+{
+  "name": "@myola/types",
+  "packageManager": "yarn@3.1.1",
+  "devDependencies": {
+    "typescript": "^4.5.5"
+  }
+}
