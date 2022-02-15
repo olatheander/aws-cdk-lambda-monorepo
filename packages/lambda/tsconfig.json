@@ -25,14 +25,12 @@
     "inlineSources": true,
     "experimentalDecorators": true,
     "strictPropertyInitialization": false,
+    "outDir": "./dist",
     "types": [
       "jest",
       "node",
       "aws-lambda"
     ],
-    "typeRoots": [
-      "./node_modules/@types"
-    ]
   },
   "exclude": [
     "node_modules",

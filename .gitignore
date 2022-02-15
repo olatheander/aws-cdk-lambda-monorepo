@@ -10,5 +10,5 @@
 #/.pnp.*
 node_modules
 
-**/*.d.ts
-**/*.js
+**/dist
+**/*.tsbuildinfo
