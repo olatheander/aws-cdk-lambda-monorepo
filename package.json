@@ -1,0 +1,12 @@
+{
+  "name": "aws-cdk-lambda-monorepo",
+  "packageManager": "yarn@3.1.1",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@types/jest": "^27.4.0",
+    "typescript": "~3.9.7"
+  }
+}
