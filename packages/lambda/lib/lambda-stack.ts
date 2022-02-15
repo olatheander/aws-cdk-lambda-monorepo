@@ -35,9 +35,6 @@ export class LambdaStack extends Stack {
       handler: lambdaHandler,
       proxy: false,
     });
-    new CfnOutput(this, "URL", {
-      value: lambdaApi.url,
-    });
 
     const lambdaIntegration = new LambdaIntegration(lambdaHandler, {
       proxy: false,
